@@ -13,7 +13,7 @@ export default function Navbar() {
               alt="Flowbite Logo"
             />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-              Admin 
+              Admin
             </span>
           </a>
           <div className="flex md:order-2">
@@ -97,7 +97,6 @@ export default function Navbar() {
                 placeholder="Search..."
               />
             </div>
-            
           </div>
         </div>
       </div>

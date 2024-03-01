@@ -1,12 +1,12 @@
-import products from '/home/sudhi-sundar-dutta/Desktop/admin-dashboard/products.json';
+import products from "../../../products.json";
 function Companies() {
   return (
     <div className="flex flex-col">
-      <div className='flex items-center justify-end  w-full'>
+      <div className="flex items-center justify-end  w-full">
         <div></div>
-      <button className="text-sm text-white text-wrap right-4 w-30 h-15 rounded-md bg-blue-500 p-2">
-        Create New Company
-      </button>
+        <button className="text-sm text-white text-wrap right-4 w-30 h-15 rounded-md bg-blue-500 p-2">
+          Create New Company
+        </button>
       </div>
       <div className="ml-96 overflow-x-auto">
         <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
