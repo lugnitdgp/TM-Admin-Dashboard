@@ -1,3 +1,5 @@
+import ThemeToggle from "./ui/toggle";
+
 export default function Navbar() {
   return (
     <div>
@@ -99,6 +101,7 @@ export default function Navbar() {
             </div>
           </div>
         </div>
+        <ThemeToggle/>
       </div>
     </div>
   );

@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types';
 import CircleIcon from '../ui/Icon';
+import { faShoppingCart, faUser } from "@fortawesome/free-solid-svg-icons";
+
 
 function Card(props) {
   return (
-    <div className="flex md:w-80 h-32 items-center justify-around lg:w-[25vw] rounded-lg bg-slate-100 overflow-hidden">
+    <div className="flex md:w-80 h-32 items-center justify-around lg:w-[26vw] rounded-lg bg-slate-100 border border-1 border-gray-400 overflow-hidden">
       <div className="md:w-14 pl-4">
       <CircleIcon icon={props.icon} color={props.color} />
       </div>
@@ -19,7 +21,7 @@ function Card(props) {
 }
 
 Card.propTypes = {
-  icon: PropTypes.string.isRequired,
+  icon: PropTypes.oneOf([faShoppingCart, faUser]).isRequired,
   color: PropTypes.string.isRequired,
   content: PropTypes.string.isRequired,
   value: PropTypes.number.isRequired,
