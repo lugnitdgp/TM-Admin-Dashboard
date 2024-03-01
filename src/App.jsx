@@ -12,9 +12,9 @@ function App() {
 
   return (
     <Router>
-      <div className={`App flex flex-col ${theme}`}>
+      <div className={`App flex flex-col ${theme} overflow-x-hidden overflow-y-hidden fixed`}>
         <Navbar />
-        <div className="flex">
+        <div className="flex h-screen dark:bg-slate-700">
           <Sidebar />
           <Routes>
             <Route path="/" element={<Dashboard />} />
