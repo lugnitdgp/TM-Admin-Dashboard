@@ -19,6 +19,7 @@ export default function PieActiveArc() {
       ]}
       height={400}
       width={600}
+      label={{ style: { fill: 'black' } }}
       
     />
   );

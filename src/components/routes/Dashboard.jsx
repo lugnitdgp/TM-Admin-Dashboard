@@ -6,7 +6,7 @@ import Container from "../ui/Container";
 
 function Dashboard() {
   return (
-    <div className="md:ml-[16vw] flex pt-8 space-y-16 flex-col">
+    <div className="md:ml-[16vw] flex pt-8 lg:pt-16 space-y-16 flex-col">
       <div className="flex flex-wrap space-x-12">
         <Card
           icon={faShoppingCart}
