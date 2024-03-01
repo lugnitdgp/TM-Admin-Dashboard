@@ -3,7 +3,7 @@ import ThemeToggle from "./ui/toggle";
 export default function Navbar() {
   return (
     <div>
-      <div className="bg-white w-[100vw] border-gray-200 dark:bg-gray-900">
+      <div className="w-[100vw] border-slate-200 dark:bg-gray-900">
         <div className="max-w-[100vw] flex flex-wrap items-center justify-between  mx-auto  p-4">
           <a
             href="https://flowbite.com/"
