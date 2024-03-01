@@ -3,7 +3,7 @@ import ThemeToggle from "./ui/toggle";
 export default function Navbar() {
   return (
     <div>
-      <div className="bg-white border-gray-200 dark:bg-gray-900">
+      <div className="bg-white w-[100vw] border-gray-200 dark:bg-gray-900">
         <div className="max-w-[100vw] flex flex-wrap items-center justify-between  mx-auto  p-4">
           <a
             href="https://flowbite.com/"
@@ -18,7 +18,7 @@ export default function Navbar() {
               Admin
             </span>
           </a>
-          <div className="flex md:order-2">
+          {/* <div className="flex md:order-2">
             <button
               type="button"
               data-collapse-toggle="navbar-search"
@@ -69,8 +69,9 @@ export default function Navbar() {
                 placeholder="Search..."
               />
             </div>
-          </div>
-          <div
+          </div> */}
+          <ThemeToggle/>
+          {/* <div
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-search"
           >
@@ -99,9 +100,8 @@ export default function Navbar() {
                 placeholder="Search..."
               />
             </div>
-          </div>
+          </div> */}
         </div>
-        <ThemeToggle/>
       </div>
     </div>
   );
